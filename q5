@@ -1,0 +1,3 @@
+Q: Change the value of the register %bx with the -a flag (e.g., -a bx=2,bx=2 if you are running just two threads). What does the code do? How does it change your answer for the question above?
+
+A: Again, for two loops there is no thread interleaving, so count will be correct at 4.
